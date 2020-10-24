@@ -1,0 +1,2 @@
+# JZackreations-LLC
+Art has been the platform that I've used to get through all the experiences in my life whether it was good or bad. My logo is a direct representation of that! The heart may seem to be "broken" but yet it's still being held together by the pencil and paint brush! The red represents life; It represents strength and I'm still here thriving through it all! I feel that I have a story to tell &amp; I use my artwork to narrate my story! Thank you for viewing, sharing, &amp; supporting my body of work!
