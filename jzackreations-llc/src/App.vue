@@ -8,6 +8,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    this.$store.dispatch('getAllImages');
+  }
+}
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -15,6 +23,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+body {
+  background-color: "black"
 }
 
 #nav {

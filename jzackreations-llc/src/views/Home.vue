@@ -1,18 +1,37 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div v-if="this.images.length > 0" class="row justify-content-center">
+      <ImageCard v-for="(image, index) in images" :key="index" :image="image.URL" :UID="image.UID" />
+    </div>
+    <div v-else class="row justify-content-center">
+      Loading...
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import ImageCard from "@/components/ImageCard.vue";
+import { mapState } from 'vuex'; 
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    ImageCard
+  },
+   computed: {
+    ...mapState({
+        images: state => state.allImages
+      }),
   }
 };
 </script>
+
+<style scoped>
+  .image-rows {
+    width: 100%;
+    align-content: 'center';
+    justify-content: center;
+  }
+</style>
