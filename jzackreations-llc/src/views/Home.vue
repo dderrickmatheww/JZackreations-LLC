@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <div v-if="this.images.length > 0" class="row justify-content-center">
-      <ImageCard v-for="(image, index) in images" :key="index" :image="image.URL" :UID="image.UID" />
+      <ImageCard v-for="(image, index) in images" :key="index" :image="image.URL" :price="image.Price" :title="image.Title" :UID="image.UID" />
     </div>
     <div v-else class="row justify-content-center">
       Loading...
@@ -22,7 +22,8 @@ export default {
   },
    computed: {
     ...mapState({
-        images: state => state.allImages
+        images: state => state.allImages,
+        currentImage: state => state.currentImage
       }),
   }
 };
