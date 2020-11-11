@@ -18,11 +18,12 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: URW Chancery L, cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
+  background-color: black;
 }
 
 body {
@@ -31,14 +32,18 @@ body {
 
 #nav {
   padding: 30px;
+  color: #686868;
+  font-size: 20px;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  font-size: 20px;
+  color: #686868;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #cc1e1e;
+  font-size: 24px;
 }
 </style>

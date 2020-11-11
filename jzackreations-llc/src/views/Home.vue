@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+  <div class="home container-fluid">
+    <img alt="JZackreation's logo" src="../assets/logo.jpg" />
     <div v-if="this.images.length > 0" class="row justify-content-center">
       <ImageCard v-for="(image, index) in images" :key="index" :image="image.URL" :price="image.Price" :title="image.Title" :UID="image.UID" />
     </div>
@@ -32,7 +32,5 @@ export default {
 <style scoped>
   .image-rows {
     width: 100%;
-    align-content: 'center';
-    justify-content: center;
   }
 </style>

@@ -9,8 +9,7 @@ const defaultURL = "https://s3.us-east-1.amazonaws.com/jzackreationsllc/";
 export default new Vuex.Store({
   state: {
     currentImage: "",
-    allImages: [],
-    showModal: false
+    allImages: []
   },
   actions: {
     async getAllImages(state) {
@@ -47,13 +46,7 @@ export default new Vuex.Store({
     setAllImages(state, payload) {
       state.allImages = payload;
     },
-    toggleModal(state, payload) {
-      state.showModal = payload;
-    },
   },
   getters: {
-    getCurrentImage(state) {
-      return state.currentImage;
-    }
   }
 });
