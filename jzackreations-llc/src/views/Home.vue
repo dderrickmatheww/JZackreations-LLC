@@ -4,8 +4,8 @@
     <div v-if="this.images.length > 0" class="row justify-content-center">
       <ImageCard v-for="(image, index) in images" :key="index" :image="image.URL" :price="image.Price" :title="image.Title" :UID="image.UID" />
     </div>
-    <div v-else class="row justify-content-center">
-      Loading...
+    <div v-else class="row justify-content-center loadingIconContainer">
+      <img class="loadingIcon" src="../assets/loading.gif">
     </div>
   </div>
 </template>
@@ -32,5 +32,13 @@ export default {
 <style scoped>
   .image-rows {
     width: 100%;
+  }
+  .loadingIconContainer {
+    margin: 20%;
+    width: auto;
+  }
+  .loadingIcon {
+    width: 100%;
+    height: auto;
   }
 </style>
