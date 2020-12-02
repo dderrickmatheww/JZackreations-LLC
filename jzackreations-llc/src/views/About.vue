@@ -12,8 +12,22 @@
           My logo is a direct representation of that! The heart may seem to be "broken" but it's still held toegther by the pencil & paint brush!
           The red represents life; it represents strength and I'm still thriving through it all. I feel that I have a story to tell & I use my artwork to narrate my story!
         </p>
-        <p style="margin-bottom: 10%; font-size: 20px"> 
+        <p style="font-size: 20px"> 
           Thank you for viewing, sharing, & supporting my body of work!
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center align-content-center" style="padding: 5%;">
+      <div class="col-md-12">
+        <hr style="height: 2px; border-width: 3px; color: #cc1e1e; background-color: #cc1e1e">
+      </div>
+      <div class="col-md-12" style="padding: 3% margin: 10%;">
+        <p style="font-size: 20px;">
+          Cash App: <a href="https://cash.app/$JzackreationsLLC" style="color: #686868;">$JZackreationsLLC</a>
+          <br />
+          Venmo: <a href="https://venmo.com/JZackreationsLLC" style="color: #686868;">JZackreationsLLC</a>
+          <br />
+          Zelle: <a href="https://www.zellepay.com/" style="color: #686868;">justin21206@gmail.com</a>
         </p>
       </div>
     </div>
