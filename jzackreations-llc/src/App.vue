@@ -18,7 +18,7 @@ export default {
 
 <style>
 #app {
-  font-family: URW Chancery L, cursive;
+  font-family: "Lucida Console", Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
